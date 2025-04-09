@@ -1,0 +1,14 @@
+# Use OpenJDK 17
+FROM openjdk:17-jdk-slim
+
+# Set working directory
+WORKDIR /app
+
+# Copy built jar from target directory
+COPY target/*.jar app.jar
+
+# Expose port (change accordingly)
+EXPOSE 8080
+
+# Run the jar file
+ENTRYPOINT ["java", "-jar", "app.jar"]
