@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+      - name: frontend
+        image: <your-harbor-repo>/frontend:latest
+        ports:
+        - containerPort: 80
+        env:
+        - name: REACT_APP_API_GATEWAY_URL
+          value: "http://<api-gateway-service-name>:8080"
