@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: email-service
-          image: 10.10.41.8:80/cinevisionmicroservice/emailservice:latest
+          image: kbhatt52/email-service:latest
           ports:
             - containerPort: 8083
           env:
