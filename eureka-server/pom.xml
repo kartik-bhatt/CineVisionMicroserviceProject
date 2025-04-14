@@ -42,4 +42,11 @@
         </dependency>
     </dependencies>
 
+         <distributionManagement>
+  <repository>
+    <id>nexus</id>
+    <url>http://18.222.108.253:8081/repository/maven-releases/</url>
+  </repository>
+</distributionManagement>
+
 </project>
