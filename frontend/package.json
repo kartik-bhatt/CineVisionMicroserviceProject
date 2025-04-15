@@ -46,6 +46,6 @@
     ]
   },
   "publishConfig": {
-    "registry": "http://3.148.191.248:8081/repository/npm-hosted/"
+    "registry": "http://18.117.70.121:8081/repository/npm-hosted/"
   }
 }
