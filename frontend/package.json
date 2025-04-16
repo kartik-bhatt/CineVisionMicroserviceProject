@@ -44,8 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "publishConfig": {
-    "registry": "http://18.117.70.121:8081/repository/npm-hosted/"
   }
 }
