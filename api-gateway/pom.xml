@@ -66,14 +66,14 @@
         </dependency>
     </dependencies>
 
-    <!--
+    
          <distributionManagement>
   <repository>
     <id>nexus</id>
-    <url>http://18.117.70.121:8081/repository/maven-releases/</url>
+    <url>http://54.227.177.201:8081/repository/maven-releases/</url>
   </repository>
 </distributionManagement>
-         -->
+         
 
 
 </project>
