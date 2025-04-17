@@ -46,7 +46,5 @@
       "last 1 safari version"
     ]
   },
-  "publishConfig": {
-    "registry": "http://54.227.177.201:8081/repository/npm-hosted/"
-  }
+ 
 }
