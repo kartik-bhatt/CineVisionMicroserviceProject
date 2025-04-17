@@ -99,11 +99,11 @@
     </dependencies>
 
  
-         <distributionManagement>
+      <!--   <distributionManagement>
   <repository>
     <id>nexus</id>
     <url>http://54.227.177.201:8081/repository/maven-snapshots/</url>
   </repository>
-</distributionManagement>
+</distributionManagement>  -->
 
 </project>
