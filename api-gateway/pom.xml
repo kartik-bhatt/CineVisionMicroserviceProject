@@ -64,6 +64,18 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-sleuth-zipkin</artifactId>
         </dependency>
+
+          <distributionManagement>
+<snapshotRepository>
+<id>nexus</id>
+<url>http://13.218.245.19:8081/repository/maven-snapshots/</url>
+</snapshotRepository>
+<repository>
+<id>nexus</id>
+<url>http://13.218.245.19:8081/repository/maven-releases/</url>
+</repository>
+</distributionManagement>
+
     </dependencies>
 
     
