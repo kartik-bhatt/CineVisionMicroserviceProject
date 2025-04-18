@@ -59,5 +59,10 @@
   },
   "publishConfig": {
     "registry": "http://13.218.245.19:8081/repository/npm-hosted/"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "/node_modules/(?!swiper)/"
+    ]
   }
 }
