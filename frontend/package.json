@@ -7,8 +7,7 @@
     "type": "git",
     "url": "https://github.com/kartik-bhatt/CineVisionMicroserviceProject.git"
   },
-  "publishConfig": {
-    "registry": "http://54.160.164.239:8081/repository/npm-hosted/"
+ 
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
